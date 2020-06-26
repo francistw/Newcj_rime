@@ -16,5 +16,7 @@
 將三個 yaml 檔案放到程序文件夾中的 data 資料夾，執行重新部署後從輸入法設定中選擇「自由大新」即可使用。
 
 ## 參考網址
+
 [RIME | 中州韻輸入法引擎](https://rime.im/)
+
 [大新倉頡共同編輯計畫](https://hyperrate.com/thread.php?tid=343)
