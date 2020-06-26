@@ -1,13 +1,20 @@
-# newcj_rime
+# 自由大新倉頡 RIME 輸入方案
 
-自由大新倉頡RIME輸入方案</br>
+## 改動
 
-將檔案COPY到c:\Program Files (x86)\Rime\weasel-0.13.0\data\目錄下，再執行重新部署，即可在選單內找到該輸入法</br>
+相較 fork 的原始版本做了以下改動：
 
-自由大新 RIME輸入方案 : newcj.schema.yaml , newcj.dict.yaml </br>
-自由大新+傳統倉頡 RIME輸入方案 : newcj+cj.schema.yaml , newcj+cj.dict.yaml </br>
+1. 禁用用戶字典防止候選詞順序變化
+2. 「Z」字根顯示為「言」，這個單純是個人喜好不喜歡在輸入框中看到中英文混雜
+3. 禁用逗句號翻頁防止無法輸入某些字根含有逗句號的字
+4. 調整符號輸入引擎設定，按「'」鍵時改為輸出頓號「、」而非單引號「‘」「’」
+5. 碼表中加入了從快倉六碼表抓過來的 zxaa ~ zxqh 特殊符號輸入
+6. 碼表中「http://」改為「https://」，「ftp://」及「file://」的取碼改為「//f」
 
+## 安裝方式
 
-參考網址：</br>
-RIME | 中州韻輸入法引擎簡, https://rime.im/ </br>
-大新倉頡共同編輯計畫 https://hyperrate.com/thread.php?tid=343 </br>
+將三個 yaml 檔案放到程序文件夾中的 data 資料夾，執行重新部署後從輸入法設定中選擇「自由大新」即可使用。
+
+## 參考網址
+[RIME | 中州韻輸入法引擎](https://rime.im/)
+[大新倉頡共同編輯計畫](https://hyperrate.com/thread.php?tid=343)

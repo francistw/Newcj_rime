@@ -4,8 +4,8 @@
 
 ---
 name: "newcj"
-version: "0.1"
-sort: by_weight
+version: "0.11"
+sort: original
 #use_preset_vocabulary: true
 max_phrase_length: 7
 min_phrase_weight: 100
@@ -82,11 +82,10 @@ encoder:
 ㄝ	/
 ㄡ	/
 ㄥ	/
-http://	//
-ftp://	//
-file://	//
-ftp://	//;
-file://	//;;
+https://	//
+ftp://	//f
+file://	//f
+file://	//f;
 ＼	/;
 ╱	/;;
 ╲	/;;;
